@@ -38,12 +38,18 @@
     cd NEBULA-TERMUX
     ```
 
-6. Install the necessary dependencies for the project defined in `package.json`:
+6. Edit `bot.js`:
+    ```
+    nano bot.js
+    ```
+    To save the edit: ctrl || x || y || enter
+
+7. Install the necessary dependencies for the project defined in `package.json`:
     ```
     npm install
     ```
     
-7. Run the Node.js application, passing a specific phone number you want to use and get the login code:
+8. Run the Node.js application, passing a specific phone number you want to use and get the login code:
     ```
     node index.js
     ```
