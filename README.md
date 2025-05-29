@@ -30,12 +30,12 @@
 
 4. Clone the GitHub repository into your local machine:
     ```
-    git clone https://github.com/coderxsa/nebulatm.git
+    git clone https://github.com/coderxsa/NEBULA-TERMUX.git
     ```
 
 5. Change into the directory of the cloned repository:
     ```
-    cd nebulatm
+    cd NEBULA-TERMUX
     ```
 
 6. Install the necessary dependencies for the project defined in `package.json`:
@@ -50,7 +50,7 @@
 
 9. To remove stat file 
     ```
-    cd nebulatm
+    cd NEBULA-TERMUX
     ```
     ```
     rm -rf state
@@ -67,7 +67,7 @@
 
 - If Termux disconnects, you can simply relink the bot by running the following commands:
     ```
-    cd nebulatm
+    cd NEBULA-TERMUX
     node index.js
     ```
 
@@ -76,8 +76,8 @@
 
 - Reinstall the bot:
     ```
-    git clone https://github.com/coderxsa/nebulatm.git
-    cd nebulatm
+    git clone https://github.com/coderxsa/NEBULA-TERMUX.git
+    cd NEBULA-TERMUX
     npm install
     node index.js
     ```
